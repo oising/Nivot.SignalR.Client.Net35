@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Microsoft.AspNet.SignalR.Client</RootNamespace>
-    <AssemblyName>Microsoft.AspNet.SignalR.Client</AssemblyName>
+    <AssemblyName>Nivot.SignalR.Client.Net35</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <RestorePackages>true</RestorePackages>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>
@@ -24,16 +24,16 @@
     <DefineConstants>TRACE;DEBUG;NET35</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Debug\Microsoft.AspNet.SignalR.Client.XML</DocumentationFile>
+    <DocumentationFile>bin\Debug\Nivot.SignalR.Client.Net35.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE;STABLE_VERSION;NET4</DefineConstants>
+    <DefineConstants>TRACE;STABLE_VERSION; NET35</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>bin\Release\Microsoft.AspNet.SignalR.Client.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\Nivot.SignalR.Client.Net35.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
