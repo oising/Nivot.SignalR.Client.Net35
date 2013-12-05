@@ -5,14 +5,12 @@ using System;
 using System.Resources;
 using System.Runtime.InteropServices;
 
+
 [assembly: AssemblyTitle("Nivot.SignalR.Client.Net35")]
-[assembly: AssemblyDescription(".NET 3.5 client for SignalR v1.x")]
-
-// Copyright (c) Microsoft Open Technologies, Inc. All rights reserved. See License.md in the project root for license information.
-
-[assembly: AssemblyVersion("1.1.4")]
-[assembly: AssemblyFileVersion("1.1.0.0")]
-[assembly: AssemblyInformationalVersion("1.1.4")]
+[assembly: AssemblyDescription(".NET 3.5 client for SignalR v2.x")]
+[assembly: AssemblyVersion("2.0.0")]
+[assembly: AssemblyFileVersion("2.0.0.0")]
+[assembly: AssemblyInformationalVersion("2.0.0")]
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information

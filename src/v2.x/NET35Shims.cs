@@ -1,8 +1,21 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
+﻿using System.IO;
+
+namespace NET35
+{
+    internal static class Extensions
+    {
+        internal static void CopyTo(this Stream source, Stream destination)
+        {
+            int num;
+            byte[] buffer = new byte[0x14000];
+            while ((num = source.Read(buffer, 0, buffer.Length)) != 0)
+            {
+                destination.Write(buffer, 0, num);
+            }
+        }    
+    }
+}
+
 
 namespace System
 {

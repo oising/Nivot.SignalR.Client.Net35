@@ -20,6 +20,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{AA019DAC-9
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "v1.x", "v1.x", "{2F5BF692-78C1-4961-9E42-3724C6F9CD3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "v2.x", "v2.x", "{43B34E9D-6244-4F49-815D-9CF7719C2C40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nivot.SignalR.Client.Net35", "v2.x\Nivot.SignalR.Client.Net35.csproj", "{EB46B9C6-EE37-48F9-835E-E49580E40E0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,8 +36,16 @@ Global
 		{C52C9116-C374-45D6-AD4C-048D5F35825D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C52C9116-C374-45D6-AD4C-048D5F35825D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C52C9116-C374-45D6-AD4C-048D5F35825D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB46B9C6-EE37-48F9-835E-E49580E40E0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB46B9C6-EE37-48F9-835E-E49580E40E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB46B9C6-EE37-48F9-835E-E49580E40E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB46B9C6-EE37-48F9-835E-E49580E40E0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C52C9116-C374-45D6-AD4C-048D5F35825D} = {2F5BF692-78C1-4961-9E42-3724C6F9CD3B}
+		{EB46B9C6-EE37-48F9-835E-E49580E40E0A} = {43B34E9D-6244-4F49-815D-9CF7719C2C40}
 	EndGlobalSection
 EndGlobal
